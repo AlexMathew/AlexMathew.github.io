@@ -23,7 +23,7 @@
 h1 {
   font-family: BrandonText-Bold, Futura, Helvetica, Arial, sans-serif;
   font-size: 6.0em;
-  color: #1babb7;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -84,7 +84,7 @@ pre {
 }
 /* line 55, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
 .window:nth-child(2) .content h2 {
-  color: #d5d7dd;
+  color: #000000;
   text-align: left;
 }
 /* line 58, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
@@ -288,13 +288,13 @@ html, body {
 
 /* line 18, ../scss/main.scss */
 .window:nth-child(1) {
-  background: #d5d7dd;
+  background: #000000;
   top: 0%;
 }
 
 /* line 18, ../scss/main.scss */
 .window:nth-child(2) {
-  background: #1babb7;
+  background: #ffffff;
   top: 100%;
 }
 
