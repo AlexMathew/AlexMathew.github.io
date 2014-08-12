@@ -23,7 +23,7 @@
 h1 {
   font-family: BrandonText-Bold, Futura, Helvetica, Arial, sans-serif;
   font-size: 6.0em;
-  color: #ffffff;
+  color: #73D216;
   text-align: center;
 }
 
@@ -32,7 +32,7 @@ h2 {
   font-family: BrandonText-Regular, Futura, Helvetica, Arial, sans-serif;
   font-size: 2.3em;
   text-align: center;
-  color: #ffff00;
+  color: #73D216;
 }
 
 /* line 13, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
@@ -84,12 +84,12 @@ pre {
 }
 /* line 55, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
 .window:nth-child(2) .content h1 {
-  color: #ffffff;
+  color: #73D216;
   text-align: left;
 }
 
 .window:nth-child(2) .content h2 {
-  color: #0000ff;
+  color: #73D216;
   text-align: left;
 }
 /* line 58, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
@@ -107,11 +107,11 @@ pre {
   top: 50%;
   width: 100%;
   margin-top: -230px;
-  color: #ffffff;
+  color: #73D216;
 }
 /* line 73, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
 .window:nth-child(3) .content h2 {
-  color: #000000;
+  color: #73D216;
   text-align: left;
   text-align: center;
   font-size: 3.0em;
@@ -126,7 +126,7 @@ pre {
 }
 /* line 83, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
 .window:nth-child(3) .content .explanation li {
-  color: #d5d7dd;
+  color: #73D216;
 }
 
 /* line 92, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
@@ -146,11 +146,11 @@ pre {
 }
 /* line 108, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
 .window:nth-child(5) h1 {
-  color: #333a3e;
+  color: #73D216;
 }
 /* line 111, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
 .window:nth-child(5) pre {
-  color: #333a3e;
+  color: #73D216;
 }
 
 /* line 119, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
@@ -296,7 +296,7 @@ html, body {
 
 /* line 18, ../scss/main.scss */
 .window:nth-child(1) {
-	background: url(/static/img/backgound.jpg) no-repeat center center fixed;
+	background: url(/static/img/background.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -305,30 +305,25 @@ html, body {
 
 /* line 18, ../scss/main.scss */
 .window:nth-child(2) {
-  background: #ffffff;
   top: 100%;
 }
 
 /* line 18, ../scss/main.scss */
 .window:nth-child(3) {
-  background: #00ffff;
   top: 200%;
 }
 
 /* line 18, ../scss/main.scss */
 .window:nth-child(4) {
-  background: #333a3e;
   top: 300%;
 }
 
 /* line 18, ../scss/main.scss */
 .window:nth-child(5) {
-  background: #d0482b;
   top: 400%;
 }
 
 /* line 18, ../scss/main.scss */
 .window:nth-child(6) {
-  background: #231f20;
   top: 500%;
 }
