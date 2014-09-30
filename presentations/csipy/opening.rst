@@ -139,4 +139,8 @@ The Python community
 .. image:: ./ui/img/pycon_india_2014.jpg
 	:align: right
 
+Let's get started !
+===================
+
+Fire up the terminal ! Let's dive into Python !
 
