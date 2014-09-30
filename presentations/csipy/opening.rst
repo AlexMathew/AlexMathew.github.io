@@ -16,6 +16,25 @@ Make sure you have Python installed, and available on PATH.
 
 If you have trouble, ask one of us around.
 
+Hi !
+====
+
+Remember when you started with 
+
+.. code-block:: c
+
+	#include<stdio.h>
+	int main() {
+		printf("Hello world !");
+		return 0;
+	}
+
+Now it's time for 
+
+.. code-block:: python
+
+	print 'Hello world !'
+
 What is Python ?
 ================
 
@@ -98,4 +117,26 @@ Who uses Python ?
 What can I do with Python ?
 ===========================
 
-- 
+- Build web apps
+- Scientific computing
+- Web scraping & indexing
+- Data analysis & visualization
+- Hardware interfacing
+- Pretty much anything else you need
+
+The Python community
+====================
+
+.. image:: ./ui/img/github.png
+	:align: center
+
+The Python community
+====================
+
+.. image:: ./ui/img/pycon_montreal.png
+	:align: left
+
+.. image:: ./ui/img/pycon_india_2014.jpg
+	:align: right
+
+
