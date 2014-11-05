@@ -42,6 +42,12 @@ p {
   font-size: 1.4em;
 }
 
+a {
+  font-family: BrandonText-Regular, Futura, Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #73D216;
+}
+
 /* line 18, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
 pre {
   color: #d5d7dd;
