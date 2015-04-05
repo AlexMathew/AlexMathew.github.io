@@ -1,93 +1,54 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
-        <meta name="description" content="My home on the web - Alex Mathew">
-        <meta name="keywords" content="Alex Mathew, website, GitHub, Python, Resume, Bootstrap">
-        <meta name="author" content="Alex Mathew">
-        <meta charset="UTF-8">
-		<title>My home on the web - Alex Mathew</title>
-		<link rel="stylesheet" href="/static/css/bootstrap.min.css">
-		<link rel="stylesheet" href="/static/css/hover.css" media="all">
-        <link rel="stylesheet" href="/static/css/design.css">
-        <link rel="stylesheet" href="/static/css/main.css">
-        <script src="/static/js/jquery.windows.js"></script>
-        <script src="/static/js/jquery-1.9.1.min.js"></script>
+		<title>Alex Mathew</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+			<link rel="stylesheet" href="css/style-noscript.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
-	<body>
-        <section id = "startPage" class="window">
-        	<div class="content">
-        		<h1>Alex Mathew</h1>
-            	<div align="center">
-                    <a href="http://periphrastic-prolixity.herokuapp.com/" style="text-decoration: none; font-size: 3em; align: center">Blog</a>
-                </div>
-            </div>
-		</section>
-<!--
-		<section id = "page2" class="window">
-			<div class="content">
-				<h2>About Me</h2>
-                
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Alex Mathew</h1>
+						<p></p>
+						<nav>
+							<ul>
+								<li><a href="http://twitter.com/alxmth03" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="http://github.com/AlexMathew" class="icon fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://www.linkedin.com/in/alexmathew16" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="http://facebook.com/AlexMathew.Enigma" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="http://plus.google.com/+AlexMathew003" class="icon fa-google-plus"><span class="label">Google Plus</span></a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+					</footer>
+				
 			</div>
-		</section>
-
-		<section id = "page3" class="window">
-			<div class="content">
-				<h2>Skills</h2>
-			</div>
-		</section>
-
-        <section id = "page4" class="window">
-			<div class="content">
-				<h2>My Resume</h2>
-			</div>
-		</section>
-		
-        <section id = "page5" class="window">
-			<div class="content">
-				<h2>Contact</h2>
-			</div>
-		</section>
--->
-        <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation" style="height: 2em">
-			<div class="nav-inner">
-				<a class="navbar-brand" href="https://alexmathew.github.io">Alex Mathew</a>
-				<ul class="nav navbar-nav nav-pills navbar-justified">
-					<li><a href="http://www.facebook.com/alexmathew.enigma">Facebook</a></li>
-					<li><a href="http://www.twitter.com/alxmth03">Twitter</a></li>
-                    <li><a href="http://plus.google.com/+AlexMathew003">Google+</a></li>
-					<li><a href="http://in.linkedin.com/pub/alex-mathew/42/a38/757/">LinkedIn</a></li>
-					<li><a href="https://github.com/AlexMathew">GitHub</a></li>
-				</ul>
-			</div>
-		</div> 
-
-        <script>
-            $(document).ready(function(){
-
-                var $windows = $('.window');
-
-                $windows.windows({
-                    snapping: true,
-                    snapSpeed: 500,
-                    snapInterval: 1100,
-                    onScroll: function(s){},
-                    onSnapComplete: function($el){},
-                    onWindowEnter: function($el){}
-                });
-
-            });
-        </script>
-    
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-			ga('create', 'UA-56515983-1', 'auto');
-			ga('send', 'pageview');
-
-		</script>
-
-    </body>
+		</div>
+	</body>
 </html>
