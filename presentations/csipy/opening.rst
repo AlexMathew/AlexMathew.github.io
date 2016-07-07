@@ -1,6 +1,6 @@
-=========================
-CSIPy : The Python primer
-=========================
+=================
+The Python primer
+=================
 
 .. image:: ./ui/img/python.png
 	:align: center
@@ -13,8 +13,6 @@ Welcome to this introductory Python workshop.
 This will be a primarily hands-on workshop. You'll also have some simple exercises to work on. 
 
 Make sure you have Python installed, and available on PATH.
-
-If you have trouble, ask one of us around.
 
 Hi !
 ====
@@ -133,10 +131,10 @@ The Python community
 The Python community
 ====================
 
-.. image:: ./ui/img/pycon_montreal.png
+.. image:: ./ui/img/pycon16ss.jpg
 	:align: left
 
-.. image:: ./ui/img/pycon_india_2014.jpg
+.. image:: ./ui/img/pycon2015.png
 	:align: right
 
 Let's get started !
